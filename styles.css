@@ -27,7 +27,7 @@ nav a:hover{
 	background:lightblue;
 	color: crimson;
 	transition: 0.3s;
-	font-size:21px;
+	font-size:20px;
 }
 .ani-menu{
 	visibility: hidden;
@@ -58,9 +58,9 @@ header{
 
 }
 h1{
-	margin: 0;
+	margin-left: 30%;
 	color:#e67e22;
-	font-size: 200%;
+	font-size: 150%;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 4px;
@@ -75,9 +75,11 @@ h1{
 }
 .btn:link,
 .btn:visited {
+  margin-left: 50%;
 	font-weight: 300;
 	text-decoration: none;
-	margin-top:25px;
+  position: relative;
+	margin-top:40%;
 	border-radius: 200px;
 	color: #fff;
 	border:1px solid #e67e22;
@@ -142,8 +144,8 @@ nav a{
 }
 .ani-menu a:hover{
 	/*background:#262626;*/
-	color:#262626;
-	font-size: 23px;
+	color:#3010be;
+	font-size: 21px;
 }
 .ani-menu{
 	background:lightblue;
